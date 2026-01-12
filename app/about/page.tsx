@@ -35,7 +35,7 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="h-96 bg-accent/20 rounded-2xl overflow-hidden">
-                <img src="/wellness-mission-community-support.jpg" alt="Our Mission" className="w-full h-full object-cover" />
+                <img src="/wellness-mission-community-support.png" alt="Our Mission" className="w-full h-full object-cover" />
               </div>
             </div>
 
