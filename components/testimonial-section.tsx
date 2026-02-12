@@ -3,21 +3,21 @@ import { Star } from "lucide-react"
 export default function TestimonialSection() {
   const testimonials = [
     {
-      name: "Fatima Ahmed",
+      name: "Fakeha Sheikh",
       role: "Program Participant",
       text: "The Wellness Club has been transformative for me. The safe space and expert guidance helped me heal and grow in ways I never expected.",
       rating: 5,
     },
     {
-      name: "Zainab Khan",
+      name: "Fatima Bilal",
       role: "Support Group Member",
       text: "Finding this community was a blessing. Everyone is so supportive and the programs are designed with such care and expertise.",
       rating: 5,
     },
     {
-      name: "Amira Hassan",
-      role: "Summer Camp Parent",
-      text: "The Summer Camp strengthened my bond with my daughter. We learned and grew together in such a nurturing environment.",
+      name: "Dr. Yasha Yunus",
+      role: "Wellness Reset Panelist",
+      text: "The session was thoughtfully designed. It addressed wellness not just as a concept but as a practical, sustainable lifestyle approach. I appreciate the balance between evidence-based insights and real-world applicability as well as engaging discussions that encouraged reflection and participation.",
       rating: 5,
     },
   ]

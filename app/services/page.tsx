@@ -2,6 +2,7 @@ import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import WhatsAppButton from "@/components/whatsapp-button"
 import { Card } from "@/components/ui/card"
+import CollaboratorsSection from "@/components/collaborators-section"
 
 export default function ServicesPage() {
   const programs = [
@@ -43,11 +44,11 @@ export default function ServicesPage() {
     },
     {
       id: 5,
-      title: "Shifting Mindsets",
+      title: "Meri Pehchaan",
       description:
-        "A high-impact, 4-hour workshop that equips individuals with tools to reshape thought patterns, boost productivity, and lead with purpose. Blends self-reflection, interactive learning, and habit reprogramming.",
+        "A five-months long talk series carefully curated to awaken the hearts and minds of Muslim women across the globe by helping them rediscover their divine identity, reclaim their emotional strength, and rise above the noise of the world with the clarity of purpose rooted in deep self-awareness, Islamic and Modern psychology.",
       audience: "Professionals & Executives",
-      schedule: "June 2025 - 2 hours/2 days",
+      schedule: "June 2026 - 2 hours/2 days",
       venue: "Ribat",
     },
     {
@@ -70,18 +71,18 @@ export default function ServicesPage() {
     },
     {
       id: 8,
-      title: "Mom & Daughter Summer Camp 2025",
+      title: "Wellness Reset 2026",
       description:
-        "A 4-day summer camp designed for a unique experience that blends fun-filled activities, sports, creative expression, and guided self-awareness sessions to strengthen relationships and help you grow together.",
+        "A one-day, women-centric wellness experience designed to promote holistic health and meaningful self-reflection. The event brought together experts from healthcare, psychology, spirituality, and social development to address key aspects of emotional, physical, psychological, and spiritual wellbeing. Through insightful panel discussions, guided wellness activities, creative engagement sessions, and preventive health screenings, participants gained practical tools to improve their overall wellbeing and lifestyle.",
       audience: "Daughters 13+, Moms up to 70",
-      schedule: "June 2025 - 1.5 hrs/session (4 days)",
+      schedule: "June 2026 - 1.5 hrs/session (1 day)",
       venue: "Ribat, Park, Minimos",
     },
     {
       id: 9,
-      title: "Relationship Mastery",
+      title: "Awareness & Screening Programs",
       description:
-        "A dedicated program to support individuals and couples in cultivating healthier, faith-aligned, and emotionally intelligent relationships through structured coaching, workshops, and one-on-one sessions.",
+        "Designed to promote preventive healthcare by educating communities about common and high-risk health conditions such as breast cancer, hepatitis, hypertension, PCOS, and other non-communicable diseases (NCDs). Through expert-led awareness sessions and basic health screenings, these programs encourage early detection, informed decision-making, and healthier lifestyle choices.",
       audience: "Adults 18+ (single & married)",
       schedule: "Weekly (1.15 hr) - Flexible times",
       venue: "Onsite & Online",
@@ -134,6 +135,7 @@ export default function ServicesPage() {
             <p className="text-lg text-muted-foreground mb-8">
               Choose a program that resonates with you and begin your wellness journey today.
             </p>
+              <CollaboratorsSection />
             <a
               href="https://wa.me/923090692995"
               target="_blank"

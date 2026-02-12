@@ -79,6 +79,7 @@ export default function Footer() {
 
         <div className="border-t border-primary-foreground/20 pt-8">
           <p className="text-sm text-center opacity-75">© 2025 The Wellness Club. All rights reserved.</p>
+          <p className="text-xs text-center opacity-70 mt-2">COPYRIGHT 2026, Powered by Codeverse</p>
         </div>
       </div>
     </footer>

@@ -14,7 +14,7 @@ export default function WorkSection() {
     },
     {
       title: "Mindfulness Sessions",
-      image: "/images/mindfulness-meditation.jpg",
+      image: "/images/mindfulness-meditation.png",
     },
   ]
 

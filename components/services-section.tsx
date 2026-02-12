@@ -22,11 +22,11 @@ export default function ServicesSection() {
       frequency: "Monthly (1 hour) - Evenings",
     },
     {
-      title: "Shifting Mindsets",
+      title: "Meri Pehchaan",
       description:
-        "High-impact 4-hour workshop equipping you with tools to reshape thought patterns, boost productivity, and lead with purpose.",
+        "A five-months long talk series carefully curated to awaken the hearts and minds of Muslim women across the globe by helping them rediscover their divine identity, reclaim their emotional strength, and rise above the noise of the world with the clarity of purpose rooted in deep self-awareness, Islamic and Modern psychology.",
       audience: "Professionals & Executives",
-      frequency: "June 2025 - 2 hours/2 days",
+      frequency: "June 2026 - 2 hours/2 days",
     },
     {
       title: "Mastering Emotions",
@@ -43,16 +43,16 @@ export default function ServicesSection() {
       frequency: "Weekly (1 hr) - Online & Onsite",
     },
     {
-      title: "Summer Camp 2025",
+      title: "Wellness Reset 2026",
       description:
-        "4-day Mom & Daughter Summer Camp blending fun activities, sports, and guided self-awareness sessions.",
+        "A one-day, women-centric wellness experience designed to promote holistic health and meaningful self-reflection. The event brought together experts from healthcare, psychology, spirituality, and social development to address key aspects of emotional, physical, psychological, and spiritual wellbeing. Through insightful panel discussions, guided wellness activities, creative engagement sessions, and preventive health screenings, participants gained practical tools to improve their overall wellbeing and lifestyle.",
       audience: "Daughters 13+, Moms up to 70",
-      frequency: "June 2025 - 1.5 hrs/session",
+      frequency: "June 2026 - 1.5 hrs/session",
     },
     {
-      title: "Relationship Mastery",
+      title: "Awareness & Screening Programs",
       description:
-        "Dedicated program supporting individuals and couples in cultivating healthier, faith-aligned, emotionally intelligent relationships.",
+        "Designed to promote preventive healthcare by educating communities about common and high-risk health conditions such as breast cancer, hepatitis, hypertension, PCOS, and other non-communicable diseases (NCDs). Through expert-led awareness sessions and basic health screenings, these programs encourage early detection, informed decision-making, and healthier lifestyle choices.",
       audience: "Adults 18+ (single & married)",
       frequency: "Weekly (1.15 hr) - Flexible times",
     },
