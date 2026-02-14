@@ -129,13 +129,67 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        {/* Event Gallery Section */}
+        <section className="py-20 bg-background">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-balance mb-8 text-center">Event Gallery</h2>
+            <div className="space-y-8">
+              {/* Row 1 */}
+              <div className="grid grid-cols-4 gap-6">
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-1-horizontal-1.png" alt="Row 1 Horizontal 1" className="w-full h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-1-verticle-1.jpeg" alt="Row 1 Vertical 1" className="w-32 h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-1-horizontal-2.png" alt="Row 1 Horizontal 2" className="w-full h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-1-verticle-2.jpg" alt="Row 1 Vertical 2" className="w-32 h-40 object-cover rounded-lg" />
+                </div>
+              </div>
+              {/* Row 2 */}
+              <div className="grid grid-cols-4 gap-6">
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-2-horizontal-1.png" alt="Row 2 Horizontal 1" className="w-full h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-2-verticle-1.jpeg" alt="Row 2 Vertical 1" className="w-32 h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-2-harizontal-2.jpg" alt="Row 2 Horizontal 2" className="w-full h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-2-verticle-1.png" alt="Row 2 Vertical 2" className="w-32 h-40 object-cover rounded-lg" />
+                </div>
+              </div>
+              {/* Row 3 */}
+              <div className="grid grid-cols-4 gap-6">
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-3-horizontal-1.jpg" alt="Row 3 Horizontal 1" className="w-full h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-3-verticle-1.jpeg" alt="Row 3 Vertical 1" className="w-32 h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-3-horizontal-2.png" alt="Row 3 Horizontal 2" className="w-full h-40 object-cover rounded-lg" />
+                </div>
+                <div className="col-span-1 flex items-center justify-center">
+                  <img src="/gallery/row-3-verticle-2.jpg" alt="Row 3 Vertical 2" className="w-32 h-40 object-cover rounded-lg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-20 bg-secondary/20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-4xl font-bold text-balance mb-6">Ready to Get Started?</h2>
             <p className="text-lg text-muted-foreground mb-8">
               Choose a program that resonates with you and begin your wellness journey today.
             </p>
-              <CollaboratorsSection />
+            <CollaboratorsSection />
             <a
               href="https://wa.me/923090692995"
               target="_blank"
